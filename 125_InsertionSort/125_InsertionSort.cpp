@@ -1,6 +1,7 @@
 
 #include <iostream>
 using namespace std;
+
 int arr[11];
 int n;
 
@@ -27,10 +28,10 @@ void input() {
 
 
 void insertionsort() {
-    int i, n, temp, j;
+    int i, temp, j;
     
 
-    for (i = 1; i <= n - 1; i++)
+    for (i = 1; i <= - 1; i++)
     {
         temp = arr[i];
         j = i - 1;
@@ -59,8 +60,10 @@ void display() {
 	cout << endl;
 }
 
-
 int main()
 {
-    std::cout << "Hello World!\n";
+
+	input();
+	insertionsort();
+	display();
 }
